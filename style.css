@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #1e1e2f;
+    color: antiquewhite;
+}
+
+.bitcoin-icon {
+    width: 50px;
+    position: absolute;
+    top: 110px;
+    right: 400px;
+}
+
+/* General image styling */
+.solana-icon {
+    width: 50px;
+    position: absolute;
+    right: 400px;
+    top: 10px;
+}
+.bnb-icon,
+.ethereum-icon,
+.trollface-icon {
+    width: 50px;
+    height: auto;
+    margin: 10px;
+    right:
+    position: relative; /* Use relative instead of absolute for easier layout */
+}
+
+/* Optional: Display all logos in a row under the prices */
+.logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+}
